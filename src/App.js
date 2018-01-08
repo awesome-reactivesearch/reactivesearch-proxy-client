@@ -5,8 +5,9 @@ class App extends Component {
   render() {
     return (
         <ReactiveBase
-        app="car-store"
-        credentials="cf7QByt5e:d2d60548-82a9-43cc-8b40-93cbbe75c34c">
+          app="car-store"
+          url="https://reactivesearch-proxy-server-dhcjizqwzo.now.sh"
+        >
           <div style={{ display: "flex", "flexDirection": "row" }}>
             <div style={{ display: "flex", "flexDirection": "column", "width": "40%" }}>
               <CategorySearch
@@ -40,7 +41,6 @@ class App extends Component {
               componentId="result"
               dataField="name"
               title="Results"
-              dataField="name"
               from={0}
               size={6}
               pagination={true}
