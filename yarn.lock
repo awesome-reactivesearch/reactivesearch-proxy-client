@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@appbaseio/reactivecore@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivecore/-/reactivecore-1.5.3.tgz#efcd169b097d6cf3c4b945fdead7904ca14e4cd3"
+"@appbaseio/reactivecore@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivecore/-/reactivecore-2.0.0.tgz#1d9c42bd6c08ab04660f9c8c3d0b8b6862d951e8"
   dependencies:
     prop-types "^15.6.0"
     redux "^3.7.2"
     redux-thunk "^2.2.0"
 
-"@appbaseio/reactivesearch@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch/-/reactivesearch-2.5.1.tgz#f26b70237bbe83c522c562dc7845ed4d1d412189"
+"@appbaseio/reactivesearch@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@appbaseio/reactivesearch/-/reactivesearch-2.6.0.tgz#fbdb576ab6deeb31d662f2c92142e4228e408549"
   dependencies:
-    "@appbaseio/reactivecore" "^1.5.3"
-    appbase-js "^2.3.0"
+    "@appbaseio/reactivecore" "^2.0.0"
+    appbase-js "^3.0.0"
     downshift "^1.31.2"
     emotion "^9.0.0"
     emotion-theming "^9.0.0"
@@ -175,9 +175,9 @@ anymatch@^1.3.0:
     micromatch "^2.1.5"
     normalize-path "^2.0.0"
 
-appbase-js@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/appbase-js/-/appbase-js-2.3.0.tgz#b647d98fb794c7a3c14c1d8a6adbf8b47d47a674"
+appbase-js@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/appbase-js/-/appbase-js-3.0.0.tgz#b19e77dd7bce27ae429cef76a2828c54acc77eb2"
   dependencies:
     babel-polyfill "^6.26.0"
     cross-fetch "^1.1.1"

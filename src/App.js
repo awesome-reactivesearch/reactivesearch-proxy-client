@@ -6,7 +6,7 @@ class App extends Component {
     return (
         <ReactiveBase
           app="car-store"
-          url="https://reactivesearch-proxy-server-dhcjizqwzo.now.sh"
+          url="http://localhost:7777"
         >
           <div style={{ display: "flex", "flexDirection": "row" }}>
             <div style={{ display: "flex", "flexDirection": "column", "width": "40%" }}>
